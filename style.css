@@ -15,6 +15,9 @@ a{
     font-weight: bold;
     color: black;
 }
+p,li{
+    font-size: 20px;
+}
 .cover{
   display: flex;
   justify-content: center;
@@ -45,8 +48,26 @@ justify-content: center;
 padding-top: 5px;
 }
 
-.img-container{
+.container{
+    display: flex;
+    margin-left: 50px;
 
+}
+
+.description{
+    width:1400px;
+    margin-left: 50px;
+}
+
+.ingredients {
+    display: flex;
+    flex-direction: column;
+}
+
+.Instructions {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
 }
 
 
