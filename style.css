@@ -15,10 +15,9 @@ a{
     font-weight: bold;
     color: black;
 }
-img{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.cover{
+  display: flex;
+  justify-content: center;
 }
 
 h1{
@@ -44,6 +43,10 @@ h1{
 display: flex;
 justify-content: center;
 padding-top: 5px;
+}
+
+.img-container{
+
 }
 
 
