@@ -31,11 +31,19 @@ h1{
     justify-content: space-evenly;
     margin-top: 100px;
     width: 2250px;
+    margin-left: 150px;
 }
 
 .recipe{
-   width: 200px;
+   width: 600px;
+   border: 5px solid black;
+   padding: 10px;
+}
 
+.link {
+display: flex;
+justify-content: center;
+padding-top: 5px;
 }
 
 
